@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   height: 100%;
 }
@@ -7,3 +11,11 @@ body {
   height: 100vh;
 }
 
+.menu-drop {
+  animation: slideIn 0.5s ease-out forwards;
+}
+
+@keyframes slideIn {
+  0%{transform: translateY(-20%)}
+  100%{transform: translateY(0%)}
+}
