@@ -1,3 +1,5 @@
+import { useReactTable } from "@tanstack/react-table"
+
 const Research = () => {
   return (
     <div className='text-white'>
@@ -37,8 +39,8 @@ const Research = () => {
           <div className="text-lg">
             On the whole, the study shows the long-lasting value of early learning experiences and the critical role that primary schools play in determining kids' academic paths, especially in mathematics. The results show that, in order to achieve favorable long-term outcomes, attention must be paid to the effectiveness and quality of elementary education. This has consequences for educational policy and initiatives; just the thing that we are looking for.
           </div>
-
-            <img src="/table1.png" alt="First table" />
+            <a target="_blank" href="">See first data table</a>
+            
           </div>
   
         </div>
