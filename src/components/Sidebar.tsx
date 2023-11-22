@@ -7,7 +7,8 @@ const Sidebar = () => {
     const options: OptionName[] = [
         'Overview',
         'Research',
-        'Experiment'
+        'Experiment',
+        'Conclusion'
     ]
 
     const [isMenu, setIsMenu] = useState<boolean>(false);

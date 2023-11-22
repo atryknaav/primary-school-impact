@@ -4,6 +4,7 @@ import { CurrOption } from '../contexts/OptionContext'
 import Overview from './text-components/Overview';
 import Research from './text-components/Research';
 import Experiment from './text-components/Experiment';
+import Conclusion from './text-components/Conclusion';
 
 const SiteBody = () => {
     const currOpt = useAtomValue(CurrOption);
@@ -12,7 +13,8 @@ const SiteBody = () => {
     const optionList: { [key: string]: () => React.JSX.Element } = {
         'Overview': Overview,
         'Research': Research,
-        'Experiment': Experiment
+        'Experiment': Experiment,
+        'Conclusion': Conclusion
     }
     let OptComponent = optionList[currOpt];
 

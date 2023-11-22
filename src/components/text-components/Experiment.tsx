@@ -16,7 +16,7 @@ const Experiment = () => {
           </div>
 
           <div className="text-lg">
-          Two surveys were designed to collect data on two different areas of interest: the relationship between early childhood experiences and future life satisfaction, and the correlation between primary school success and high school grades.
+          Two surveys were designed to collect data on two different areas of interest (though some questions may be considered unethical): the relationship between early childhood experiences and future life satisfaction, and the correlation between primary school success and high school grades.
 
           </div>
 
@@ -78,6 +78,7 @@ const Experiment = () => {
           <Question name="Did you develop any specific coping mechanisms or skills during your early years that you believe contribute to your current well-being?" num={9} />
           <Question name="What recommendations would you give to improve the well-being of children during their early years?" num={10} />
 
+            <hr className="left-0 mt-10 w-[75%] self-center mb-10"/>
           </div>
 
   
