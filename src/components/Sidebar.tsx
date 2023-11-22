@@ -13,7 +13,7 @@ const Sidebar = () => {
 
     if (typeof window !== 'undefined')
   if (window!.innerWidth >= 1024) return (
-    <div className='flex flex-col bg-[#202020] h-full w-[20%] text-white fixed top-2 left-2 select-none '>
+    <div className='flex flex-col bg-[#141414] h-full w-[20%] text-white fixed top-2 left-2 select-none '>
         <div className={`font-bold text-[2.5rem] border-r-2 border-b-2 border-slate-600 rounded-br-[2rem] pl-6 pb-3`}>
             Welcome
         </div>
@@ -29,15 +29,15 @@ const Sidebar = () => {
   )
 
   return (
-    <div className='fixed left-0 top-0 bg-[#202020] shadow-md h-fit w-full text-[2rem] text-white p-3 flex flex-col'>
+    <div className='fixed left-0 top-0 bg-[#141414] shadow-md h-fit w-full text-[2rem] text-white p-3 flex flex-col'>
         <div className='flex justify-between z-20'>
 
             <div>Welcome</div>
-            <div className='flex flex-col justify-center active:bg-[#2b2a2a] rounded-full p-1 duration-200' onClick={() => setIsMenu(!isMenu)}>{React.cloneElement(menu, { width: '1em', height: '1em' })}</div> 
+            <div className='flex flex-col justify-center active:bg-[#181717] rounded-full p-1 duration-200' onClick={() => setIsMenu(!isMenu)}>{React.cloneElement(menu, { width: '1em', height: '1em' })}</div> 
 
         </div>
         
-        {isMenu ? <div className='menu-drop z-10  h-fit py-6 w-full bg-[#202020] shadow-inner flex flex-col gap-3'>
+        {isMenu ? <div className='menu-drop z-10  h-fit py-6 w-full bg-[#141414] shadow-inner flex flex-col gap-3'>
             {options.map((item, index) => (
                 <div key={index} onClick={() => setIsMenu(!isMenu)}><Option name={item} /></div>
             ))}

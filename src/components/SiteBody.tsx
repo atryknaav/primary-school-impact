@@ -15,8 +15,10 @@ const SiteBody = () => {
     let OptComponent = optionList[currOpt];
 
     return (
-      <div className='flex-grow lg:ml-[20%] mt-[rem] lg:mt-0 min-h-screen h-fit p-2 mb-3 bg-transparent shadow-inner'>
+      <div className='flex-grow lg:ml-[20%] mt-[4rem] lg:mt-0 min-h-screen h-full p-2 mb-3 bg-transparent shadow-inner flex flex-col justify-between'>
         {OptComponent && <OptComponent />}
+
+        <div className='flex justify-end align-bottom text-unimportant'>&#169; Arsenii Bilyi</div>
       </div>
     );
   };

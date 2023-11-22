@@ -3,8 +3,10 @@ const Overview = () => {
       <div className='text-white'>
         
         <div className='text-[2rem] font-bold ml-6'>Overview</div>
+
+        <hr className="left-0 mt-2 mb-8 w-[100%] self-center"/>
         
-        <div className='ml-8 flex flex-col gap-3'>
+        <div className='mx-2 flex flex-col gap-3'>
   
           <div className='text-lg'>
             <span className='font-bold'>Research Question:</span> <br />
@@ -18,6 +20,8 @@ const Overview = () => {
           <div>
             <span className='font-bold'>Hypothesis 2:</span> <br /> The impact of primary education on high school success is mediated by factors like early cognitive abilities, socio-economic background, and parental involvement.
           </div>
+
+          <hr className="left-0 mt-10 w-[75%] self-center"/>
   
           </div>
   
