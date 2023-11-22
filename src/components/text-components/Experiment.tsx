@@ -1,3 +1,4 @@
+import Question from "../Question"
 
 
 const Experiment = () => {
@@ -43,15 +44,42 @@ const Experiment = () => {
 
           </div>
 
-          <hr className="left-0 mt-10 w-[75%] self-center"/>
+          <hr className="left-0 mt-10 w-[75%] self-center mb-10"/>
 
-          <div className="text-[1.5rem] font-bold">
-            Results and Their Significance:
-          </div>
           <div className="font-bold">
             Survey on Correlation Between Primary School Success and High School Grades:
           </div>
+
+          <Question name="Age:" num={1} />
+          <Question name="Gender:" num={2} />
+          <Question name="Current Grade Level:" num={3} />
+          <Question name="Reflect on your experience in primary school." questions={['Were you generally successful in your primary school studies?', 'What factors do you believe contributed to your success in primary school?']} num={4} />
+          <Question name="Describe your transition from primary school to high school." questions={['Was the transition smooth or challenging? Why?', 'Did your performance in primary school influence your initial experiences in high school? How?']} num={5} />
+          <Question name="How would you rate your overall academic performance in high school?" questions={['Excellent', 'Good', 'Average', 'Below average', 'Poor']} num={6} />
+          <Question name="Do you believe your success in primary school had an impact on your high school grades? (Yes/No)" num={7} questions={['If yes, in what ways do you think your primary school success influenced your performance in high school?']} />
+          <Question name="Did you receive any support or interventions during your transition from primary school to high school? (e.g., mentoring, counseling, tutoring)?" num={8} />
+          <Question name="Based on your experiences, what recommendations would you give to improve the transition from primary school to high school?" num={9} />
+
+
+          <hr className="left-0 mt-10 w-[75%] self-center mb-10"/>
+
+          <div className="font-bold">
+            Survey on Early Childhood Experiences and Satisfaction with Future Life:
           </div>
+
+          <Question name="Age:" num={1} />
+          <Question name="Gender:" num={2} />
+          <Question name="Current Life Satisfaction Level (on a scale of 1 to 10):" num={3} />
+          <Question name="Reflect on your early childhood experiences." questions={['How would you describe your overall childhood experience? (Happy, Neutral, Challenging)', 'Are there specific events or experiences from your early childhood that stand out?']} num={4} />
+          <Question name="How would you characterize the influence of your parents or caregivers during your early years?" questions={['Supportive', 'Strict', 'Neglectful', 'Other (please specify)']} num={5} />
+          <Question name="Did your early childhood experiences have any impact on your attitude towards education?" questions={['Yes, positively', 'Yes, negatively', 'No impact']} num={6} />
+          <Question name="On a scale of 1 to 10, how satisfied are you with your current life and future prospects?" num={7}  />
+          <Question name="Do you believe there is a connection between your early childhood experiences and your current satisfaction with life? (Yes/No)" num={8} questions={['If yes, please elaborate on how these early experiences have influenced your outlook on life.']}/>
+          <Question name="Did you develop any specific coping mechanisms or skills during your early years that you believe contribute to your current well-being?" num={9} />
+          <Question name="What recommendations would you give to improve the well-being of children during their early years?" num={10} />
+
+          </div>
+
   
   
       </div>
