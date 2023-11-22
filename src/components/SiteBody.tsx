@@ -1,5 +1,5 @@
 import { useAtomValue, } from 'jotai'
-import React, { useEffect } from 'react'
+
 import { CurrOption } from '../contexts/OptionContext'
 import Overview from './text-components/Overview';
 import Research from './text-components/Research';
