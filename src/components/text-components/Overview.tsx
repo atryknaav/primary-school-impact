@@ -10,7 +10,7 @@ const Overview = () => {
   
           <div className='text-lg'>
             <span className='font-bold'>Research Question:</span> <br />
-            How does the quality of primary school education, as measured by specific pedagogical approaches, teaching methodologies, and learning environments, impact students&apos; academic performance, cognitive development, and socioemotional skills during their high school years, ultimately influencing their overall success in secondary education?
+            How do the quality of primary school education, as measured by specific pedagogical approaches, teaching methodologies, and learning environments, and early-life experiences impact students&apos; academic performance, cognitive development, and socioemotional skills during their high school years, ultimately influencing their overall success in secondary education and the future life?
           </div>
           
           <div className='mt-2'>
