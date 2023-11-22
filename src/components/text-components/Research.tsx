@@ -39,7 +39,8 @@ const Research = () => {
           <div className="text-lg">
             On the whole, the study shows the long-lasting value of early learning experiences and the critical role that primary schools play in determining kids' academic paths, especially in mathematics. The results show that, in order to achieve favorable long-term outcomes, attention must be paid to the effectiveness and quality of elementary education. This has consequences for educational policy and initiatives; just the thing that we are looking for.
           </div>
-            <a target="_blank" href="">See first data table</a>
+            <a className="text-unimportant hover:text-[#ffe7e7] underline-d" target="_blank" href="https://github.com/atryknaav/primary-school-impact/blob/main/table1.png?raw=true">See first data table</a>
+            <a className="text-unimportant hover:text-[#ffe7e7] underline-d" target="_blank" href="https://github.com/atryknaav/primary-school-impact/blob/main/table1.png?raw=true">See first data table</a>
             
           </div>
   
