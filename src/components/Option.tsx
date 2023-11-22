@@ -1,5 +1,5 @@
 import { useSetAtom } from "jotai";
-import { lense, overview } from "../icons";
+import { experiment, lense, overview } from "../icons";
 import React from "react";
 import { CurrOption } from "../contexts/OptionContext";
 import { OptionName } from "../types/OptionName";
@@ -8,7 +8,8 @@ const Option = ({name} : {name: OptionName}) => {
 
     const iconList: { [key: string]: JSX.Element } = {
         Overview: overview,
-        Research: lense
+        Research: lense,
+        Experiment: experiment
     }
     const icon = iconList[name];
 

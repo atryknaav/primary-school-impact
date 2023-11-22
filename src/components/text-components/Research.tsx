@@ -1,5 +1,3 @@
-import { useReactTable } from "@tanstack/react-table"
-
 const Research = () => {
   return (
     <div className='text-white'>
@@ -20,12 +18,12 @@ const Research = () => {
           <h1 className="text-[1.5rem] font-bold">1.2. Primary school math learning impact researches. </h1>
 
           <div className="text-lg">
-            There is a study about the impact of primary school math published on <a target='_blank' className="text-unimportant hover:text-[#ffe7e7]" href=" https://research.ebsco.com/c/co6jbk/viewer/pdf/o3uv4yft75"> British Educational Research Journal. </a> <br />
+            There is a study about the impact of primary school math published on <a target='_blank' className="underline text-unimportant hover:text-[#ffe7e7]" href=" https://research.ebsco.com/c/co6jbk/viewer/pdf/o3uv4yft75"> British Educational Research Journal. </a> <br />
             The study examined the long-term effects of elementary education on pupils' mathematical achievement at the 17-year-old age. The research aimed to determine the long-term impacts of early education by using cross-classified multilevel models to address the complex data structure where students are linked with both primary and secondary institutions. 
           </div>
 
           <div className="text-lg">
-            Remarkably, the findings revealed the important and enduring effects of elementary schools on pupils' mathematical proficiency, even after taking into consideration the diverse backgrounds and past academic records of the students. Essentially, elementary schools shaped pupils' mathematical aptitudes well into their later adolescent years. 2.9% of the unexplained variance in mathematics achievement at age 17 was explained by the elementary school impact.
+            The findings revealed the important and enduring effects of elementary schools on pupils' mathematical proficiency, even after taking into consideration the diverse backgrounds and past academic records of the students. Essentially, elementary schools shaped pupils' mathematical aptitudes well into their later adolescent years. 2.9% of the unexplained variance in mathematics achievement at age 17 was explained by the elementary school impact.
           </div>
 
           <div className="text-lg">
@@ -39,9 +37,37 @@ const Research = () => {
           <div className="text-lg">
             On the whole, the study shows the long-lasting value of early learning experiences and the critical role that primary schools play in determining kids' academic paths, especially in mathematics. The results show that, in order to achieve favorable long-term outcomes, attention must be paid to the effectiveness and quality of elementary education. This has consequences for educational policy and initiatives; just the thing that we are looking for.
           </div>
-            <a className="text-unimportant hover:text-[#ffe7e7] underline-d" target="_blank" href="https://github.com/atryknaav/primary-school-impact/blob/main/table1.png?raw=true">See first data table</a>
-            <a className="text-unimportant hover:text-[#ffe7e7] underline-d" target="_blank" href="https://github.com/atryknaav/primary-school-impact/blob/main/table1.png?raw=true">See first data table</a>
+
+            <a className="underline text-unimportant hover:text-[#ffe7e7] ml-4" target="_blank" href="https://github.com/atryknaav/primary-school-impact/blob/main/table1.png?raw=true">&#8226;  See first data table</a>
+            <a className="underline text-unimportant hover:text-[#ffe7e7] ml-4" target="_blank" href="https://github.com/atryknaav/primary-school-impact/blob/main/table2.png?raw=true">&#8226;  See second data table</a>
+
+            <div>
+                <h1 className="text-[1.5rem] font-bold">2.1. What other factors impact children's high school grades and development? </h1>
+            </div>
+
+            <div className="text-lg">
+                Early experiences, which include both elementary school and childhood interactions, have a significant and enduring impact on a person's future path, and forming their traits, actions, and achievements. A person's early years play an important part in laying the foundations for future development and have an impact on a variety of factors, including social skills, emotional stability, cognitive ability, and overall life happiness.
+            </div>
+
+            <div>
+                <h1 className="text-[1.5rem] font-bold">2.2. Related to the future success and well-being researches. </h1>
+            </div>
             
+            <div className="text-lg">
+                A research related to the impact of early life experinces and the future success is presented on <a target="_blank" className="underline text-unimportant hover:text-[#ffe7e7]" href="https://link.springer.com/article/10.1007/s12187-021-09830-3">a Springer article by Jacqueline Lettau</a> (a credible source). <br />
+                The study explores the complex relationship between children's personal pleasure and academic success. The study, which focuses on academic proficiency levels and school grades, uses information from Germany's National Educational Panel Study. The study makes use of fixed effects regressions to try and determine the complex causal relationships that exist between these educational components and children's general well-being.
+            </div>
+
+            <div className="text-lg">
+                The inquiry adopts a thorough methodology, taking into account potential differences in the influence across various secondary school pathways. This complicates the analysis further since it raises questions about how much academic performance and grades matter in determining children's life satisfaction depending on their individual educational paths. With a longitudinal approach and the removal of time-constant confounding variables, the study seeks to offer a more accurate and nuanced picture of the relationship between children's well-being and educational attainment.
+            </div>
+
+            <div className="text-lg">
+                Overall, the study provides insightful information about the relationship between children's subjective well-being and their academic achievement, including both competence and grades. The results are intended to provide insight into the complex dynamics at work during the formative years of children, with implications for educational policies and interventions that seek to improve general life satisfaction and mental health in this important population.
+            </div>
+
+          <hr className="left-0 mt-2 mb-8 w-[100%] self-center"/>
+
           </div>
   
         </div>

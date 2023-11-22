@@ -18,7 +18,7 @@ const Overview = () => {
           </div>
   
           <div>
-            <span className='font-bold'>Hypothesis 2:</span> <br /> The impact of primary education on high school success is mediated by factors like early cognitive abilities, socio-economic background, and parental involvement.
+            <span className='font-bold'>Hypothesis 2:</span> <br /> The impact of primary education and early life on high school and life success is mediated by factors like early cognitive abilities, socio-economic background, and parental involvement.
           </div>
 
           <hr className="left-0 mt-10 w-[75%] self-center"/>

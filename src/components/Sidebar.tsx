@@ -6,7 +6,8 @@ import { OptionName } from '../types/OptionName';
 const Sidebar = () => {
     const options: OptionName[] = [
         'Overview',
-        'Research'
+        'Research',
+        'Experiment'
     ]
 
     const [isMenu, setIsMenu] = useState<boolean>(false);

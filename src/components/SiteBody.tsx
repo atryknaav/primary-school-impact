@@ -3,6 +3,7 @@ import { useAtomValue, } from 'jotai'
 import { CurrOption } from '../contexts/OptionContext'
 import Overview from './text-components/Overview';
 import Research from './text-components/Research';
+import Experiment from './text-components/Experiment';
 
 const SiteBody = () => {
     const currOpt = useAtomValue(CurrOption);
@@ -10,7 +11,8 @@ const SiteBody = () => {
 
     const optionList: { [key: string]: () => React.JSX.Element } = {
         'Overview': Overview,
-        'Research': Research
+        'Research': Research,
+        'Experiment': Experiment
     }
     let OptComponent = optionList[currOpt];
 
